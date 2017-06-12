@@ -4,14 +4,14 @@ const arithmetic = module.exports = {};
 
 arithmetic.add = function(a,b) {
   if (isNaN(a) || isNaN(b)) {
-    console.log('Please enter a numeric value.');
+    return 'Please enter numeric values.';
   } else {
     return  a+b;
   }
 };
 
 arithmetic.sub = (a,b) => {if(isNaN(a) || isNaN(b)) {
-  console.log('Please enter numeric values.');
+  return 'Please enter numeric values.';
 } else {
   return a-b;
 }

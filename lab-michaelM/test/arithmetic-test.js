@@ -18,4 +18,18 @@ describe('Testing arithmetic.', () => {
     });
   });
   // end sub test
+  // begin add test for non number value
+  describe('Testing add for non number value.', () => {
+    it('Should return message in console.', () => {
+      expect(arithmetic.add('a','b')).toEqual('Please enter numeric values.');
+    });
+  });
+  // end add test for non number value
+  // begin sub test for non number value
+  describe('Testing sub for non number value.', () => {
+    it('Should return message in console.', () => {
+      expect(arithmetic.sub('a','b')).toEqual('Please enter numeric values.');
+    });
+  });
+  // end sub test for non number value
 });

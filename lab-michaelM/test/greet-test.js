@@ -11,9 +11,11 @@ describe('Testing greet.', () => {
     });
   });
   // end greet expected string test
+  // begin greet expected null test
   describe('Testing greet for value of null', () => {
     it('Should return null', () => {
       expect(greet(5)).toEqual(null);
     });
   });
+  // end greet expected null test
 });
