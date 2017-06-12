@@ -1,3 +1,8 @@
 'use-strict';
 
-module.exports = name => console.log('Hello, ', name);
+module.exports = name => {if(typeof name !== 'string') {
+  return null;
+} else {
+  return 'Hello, ' + name;
+}
+};
