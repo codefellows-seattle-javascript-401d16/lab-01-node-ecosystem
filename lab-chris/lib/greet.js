@@ -1,8 +1,8 @@
 'use strict';
 
-module.exports = function(name){
+module.exports = (name) => {
   if(typeof name === 'string'){
-    console.log('hello', name);
+    return 'hello, ' + name;
   } else {
     return null;
   }
