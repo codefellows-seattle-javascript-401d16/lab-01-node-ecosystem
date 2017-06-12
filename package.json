@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/oscarcauich/lab-01-node-ecosystem/issues"
   },
-  "homepage": "https://github.com/oscarcauich/lab-01-node-ecosystem#readme"
+  "homepage": "https://github.com/oscarcauich/lab-01-node-ecosystem#readme",
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^3.4.2"
+  }
 }
