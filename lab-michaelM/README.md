@@ -20,26 +20,20 @@ You will need to run: ```npm install``` prior to running the application.
 
 ### What the tests actually do.
 
-Testing arithmetic.
-  Testing add.
-    Should return 2.
-  Testing sub.
-    Should return 2.
-  Testing add for non number value.
-    Should return message in console.
-  Testing sub for non number value.
-    Should return message in console.
+* **Testing arithmetic.**
+  * Testing add should return 2.
+  * Testing sub should return 2.
+  * Testing add for non number value. Should return message in console.
+  * Testing sub for non number value. Should return message in console.
 
-Testing greet.
-  Testing greet for value of Hello, world!
-    Should return Hello world!
-  Testing greet for value of null
-    Should return null
+* **Testing greet.**
+  * Testing greet for value of Hello, world! Should return Hello world!
+  * Testing greet for value of null. Should return null.
 
 ## Authors
 
-* **Michael Miller**
+* **Michael Miller** (mdm_8@hotmail.com)
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the *MIT* License.
