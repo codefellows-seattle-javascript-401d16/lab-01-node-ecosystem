@@ -17,7 +17,10 @@
   },
   "homepage": "https://github.com/portermichael/lab-01-node-ecosystem#readme",
   "devDependencies": {
-    "expect": "^1.20.2",
+    "expect.js": "^0.3.1",
     "mocha": "^3.4.2"
+  },
+  "dependencies": {
+    "npm": "^5.0.3"
   }
 }
