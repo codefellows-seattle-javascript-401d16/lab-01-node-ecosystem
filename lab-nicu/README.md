@@ -1,9 +1,9 @@
-##**README**
+## **README**
 ---
 This package allows users to greet and do basic add and subtract arithmetic operations.
 
 ----
-####**GREET Module**
+#### **GREET Module**
 The greet module accepts a string value and returns a concatenated or a null if an invalid data type is passed. 
 
 To use GREET module:
@@ -17,7 +17,7 @@ To use GREET module:
 	console.log(greeting(10));
 ```
 ----
-####**ARITHMETIC Module**
+#### **ARITHMETIC Module**
 The Arithmetic Module accepts  two number parameters and returns a value depending on the arithmetic value. It will return a null if there are invalid number provided. 
 
 
