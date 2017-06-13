@@ -3,7 +3,7 @@
 const arithmetic = module.exports = {};
 
 arithmetic.add = (a,b) => {
-  if(typeof a || b === 'number'){
+  if(typeof a === 'number' && typeof b === 'number'){
     return a+b;
   } else {
     return null;

@@ -13,8 +13,22 @@ describe('testing arithmetic', () => {
     });
   });
 
+  describe('testing add', () => {
+    it('should return null', () => {
+      let result = arithmetic.add('wat', 2);
+      expect(result).toEqual(null);
+    });
+  });
+
   describe('testing subtract', () => {
     it('should return 3', () => {
+      let result = arithmetic.subtract(6,3);
+      expect(result).toEqual(3);
+    });
+  });
+
+  describe('testing subtract', () => {
+    it('should return null', () => {
       let result = arithmetic.subtract('wat',3);
       expect(result).toEqual(null);
     });
