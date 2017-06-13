@@ -1,6 +1,9 @@
-![CF](https://camo.githubusercontent.com/70edab54bba80edb7493cad3135e9606781cbb6b/687474703a2f2f692e696d6775722e636f6d2f377635415363382e706e67) 401 JS -- Class 01 node ecosystem 
+![CF](https://camo.githubusercontent.com/70edab54bba80edb7493cad3135e9606781cbb6b/687474703a2f2f692e696d6775722e636f6d2f377635415363382e706e67) 401 JS -- Class 01 node ecosystem
 ===
-
+## Description of project
+  * Created a greeting function that returns 'Hello' + user input
+  * Created functions that take user inputs and add them or subtract them and return the result
+  * Wrote tests that checked to ensure functions returned correct output
 ## Submission Instructions
   * Work in a fork of this repository
   * Work in a branch on your fork
