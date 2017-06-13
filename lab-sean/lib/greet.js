@@ -1,6 +1,10 @@
 'use strict';
 
-module.exports = function(name){
-  if (typeof name !== 'string') throw new Error('expected string');
-  return 'Hello, ' + name;
+module.exports = function greet (name){
+  if(typeof name == 'string'){
+    return 'Hello, ' + name;
+  }
+  else {
+    return null;
+  }
 };

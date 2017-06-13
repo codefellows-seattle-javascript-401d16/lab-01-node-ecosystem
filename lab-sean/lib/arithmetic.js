@@ -2,18 +2,18 @@
 
 const arithmetic = module.exports = {};
 
-arithmetic.add = function add (a, b) {
+arithmetic.add = function(a, b) {
   if (typeof a == 'number' && typeof b == 'number') {
     return a + b;
   } else {
-    return 'Enter a number';
+    return null;
   }
 };
 
-arithmetic.subtract = function subtract (a, b) {
+arithmetic.subtract = function(a, b) {
   if (typeof a == 'number' && typeof b == 'number') {
     return a - b;
   } else {
-    return 'Enter a number';
+    return null;
   }
 };
