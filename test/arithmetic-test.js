@@ -12,6 +12,14 @@ describe('Test for the arithmetic functions', () => {
     });
   });
 
+  //testing for invalid input
+  describe('it should return, Not a Valid Number', () =>{
+    it('should return, Not a Valid Number', () => {
+      let result = arithmetic.add('x','y');
+      expect(result).toEqual('Not a Valid Number');
+    });
+  });
+
   //testing substraction function
   describe('test substraction', () => {
     it('it should return 3', ()=> {
