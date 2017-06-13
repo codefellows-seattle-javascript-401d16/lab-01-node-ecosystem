@@ -18,4 +18,16 @@ describe('testing arithmetic', () => {
       expect(result).toEqual(2);
     });
   });
+  describe('testing add', () => {
+    it('should return Those are not numbers', () => {
+      let result = arithmetic.add('a','z');
+      expect(result).toEqual('Those are not numbers');
+    });
+  });
+  describe('testing subtract', () => {
+    it('should return Those are not numbers', () => {
+      let result = arithmetic.sub('a','z');
+      expect(result).toEqual('Those are not numbers');
+    });
+  });
 });
