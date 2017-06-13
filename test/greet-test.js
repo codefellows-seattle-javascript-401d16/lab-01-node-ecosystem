@@ -6,7 +6,7 @@ const greet = require('../lib/greet.js');
 
 
 describe('testing greeting', ()=>{
-  it('should return hello saul', ()=>{
+  it('should return hello world', ()=>{
     expect(greet('world')).toEqual('hello world');
   });
   it('should return a string', ()=>{
