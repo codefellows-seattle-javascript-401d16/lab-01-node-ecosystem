@@ -1,0 +1,26 @@
+{
+  "name": "lab-01",
+  "version": "1.0.0",
+  "description": "## Contents   1. greet.js - Greeting module   2. arithmetic.js - Arithmetic module",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "expect": "^1.20.2",
+    "mocha": "^3.4.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Ryan Felix",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xelif/lab-01-node-ecosystem.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Xelif/lab-01-node-ecosystem/issues"
+  },
+  "homepage": "https://github.com/Xelif/lab-01-node-ecosystem#readme"
+}
