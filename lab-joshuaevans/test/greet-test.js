@@ -12,6 +12,5 @@ describe('testing hello world', () => {
 describe('testing if not string', () => {
   it('should return null', () => {
     expect(greet()).toEqual(null);
-    return null;
   });
 });
