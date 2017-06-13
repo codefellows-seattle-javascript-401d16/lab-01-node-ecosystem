@@ -1,5 +1,9 @@
-![CF](https://camo.githubusercontent.com/70edab54bba80edb7493cad3135e9606781cbb6b/687474703a2f2f692e696d6775722e636f6d2f377635415363382e706e67) 401 JS -- Class 01 node ecosystem 
+![CF](https://camo.githubusercontent.com/70edab54bba80edb7493cad3135e9606781cbb6b/687474703a2f2f692e696d6775722e636f6d2f377635415363382e706e67) 401 JS -- Class 01 node ecosystem
 ===
+
+## Description
+  * This project was fairly simple. First i created functions that achieved the output requested then i exported those functions to index.js and created testing for each of those functions. The part that i had the most trouble with was the testing for a number or string, but with some help from classmates and the expect docs i was able to solve it.
+  * Question: how the heck do we create tests for the command line?
 
 ## Submission Instructions
   * Work in a fork of this repository
