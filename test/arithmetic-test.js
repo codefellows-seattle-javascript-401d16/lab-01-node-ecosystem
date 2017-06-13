@@ -27,4 +27,12 @@ describe('Test for the arithmetic functions', () => {
       expect(result).toEqual(3);
     });
   });
+
+  //testing for invalid iput on substraction
+  describe('it should return, Not a Valid Number', () => {
+    it('should return, Not a Valid Number', () =>{
+      let result = arithmetic.sub('x','y');
+      expect(result).toEqual('Not a Valid Number');
+    });
+  });
 });
