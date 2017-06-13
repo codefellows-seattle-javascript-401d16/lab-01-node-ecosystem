@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/tjayrocket/lab-01-node-ecosystem#readme",
   "devDependencies": {
+    "expect": "^1.20.2",
     "mocha": "^3.4.2"
   }
 }
