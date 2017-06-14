@@ -3,6 +3,6 @@
 const arithmetic = require('./lib/arithmetic.js');
 const greet = require('./lib/greet.js');
 
-greet('Joshua');
-arithmetic.add(3,2);
-arithmetic.sub(5,3);
+console.log(greet('Joshua'));
+console.log(arithmetic.add(3,2));
+console.log(arithmetic.sub(5,3));
