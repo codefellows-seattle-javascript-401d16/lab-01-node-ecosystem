@@ -7,3 +7,8 @@ module.exports = function(name) {
     return null;
   }
 };
+
+
+// Does the same thing as above
+// module.exports = (name) =>
+//   typeof name === 'string' ? `Hello, ${name}!` : null;
