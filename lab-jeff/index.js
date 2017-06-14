@@ -1,0 +1,9 @@
+'use strict';
+
+const greet = require('./lib/greet.js');
+
+const arithmetic = require('./lib/arithmetic.js');
+
+greet('world!');
+arithmetic.add(1, 4);
+arithmetic.subtract(4, 1);
