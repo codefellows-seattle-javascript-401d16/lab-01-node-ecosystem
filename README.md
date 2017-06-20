@@ -1,4 +1,4 @@
-![CF](https://camo.githubusercontent.com/70edab54bba80edb7493cad3135e9606781cbb6b/687474703a2f2f692e696d6775722e636f6d2f377635415363382e706e67) 401 JS -- Class 01 node ecosystem 
+![CF](https://camo.githubusercontent.com/70edab54bba80edb7493cad3135e9606781cbb6b/687474703a2f2f692e696d6775722e636f6d2f377635415363382e706e67) 401 JS -- Class 01 node ecosystem
 ===
 
 ## Submission Instructions
@@ -22,34 +22,34 @@
 #### Configuration  
 <!-- list of files, configurations, tools, etc that are required -->
 Your lab directory must include  
-* **README.md** -- with a documentation about your lab
-* **.gitignore** -- with a robust gitignore
-* **.eslintrc** -- with the class .eslintrc file
-* **.eslintignore** -- with the class .eslintignore
-* **.package.json** -- with all dependencies and dev-dependencies
-* **lib/** -- a lib direcotry for holding your modules
-* **test/** -- a test directory for holding your unit tests
+* **README.md** -- with a documentation about your lab - DONE
+* **.gitignore** -- with a robust gitignore -done
+* **.eslintrc** -- with the class .eslintrc file DONE
+* **.eslintignore** -- with the class .eslintignore- DONE
+* **.package.json** -- with all dependencies and dev-dependencies - DONE
+* **lib/** -- a lib direcotry for holding your modules -DONE
+* **test/** -- a test directory for holding your unit tests -DONE
 
 #### Feature Tasks  
-* Create a nodejs module named greet.js that exports a single function
- * The greet function should have a single parameter name that should expect a string
- * The greet function should return the input name concatenated with "Hello, "
- * The greet function should return null if the input is not a string
-* Create a nodejs module named arithmetic
- * The arithmetic.js module should have `add` and `sub` methods
- * `add` should have to params that should expect a number, it should return the sum of the to numbers
- * `sub` should have to params that should expect a number, it should return the first argument minus the second argument
- * decide on an expected behavior for non number inputs
+* Create a nodejs module named greet.js that exports a single function - DONE
+ * The greet function should have a single parameter name that should expect a string -DONE
+ * The greet function should return the input name concatenated with "Hello, " - DONE
+ * The greet function should return null if the input is not a string - DONE
+* Create a nodejs module named arithmetic -DONE
+ * The arithmetic.js module should have `add` and `sub` methods - DONE
+ * `add` should have to params that should expect a number, it should return the sum of the to numbers DONE
+ * `sub` should have to params that should expect a number, it should return the first argument minus the second argument -DONE
+ * decide on an expected behavior for non number inputs -DONE, decided on null...
 
 #### Testing  
-* Write a test the expects the greet module to return "Hello, world!" when invoked with "world!" as a parameter
-* Write a test that expects the greet module to return null when you use non string values
-* Write test for the `add` and `subtract` methods on the arithmetic module
- * Write a test that ensures the functions work as you expect with number inputs
- * Write a test that ensures the functions work as expected with non number inputs
+* Write a test the expects the greet module to return "Hello, world!" when invoked with "world!" as a parameter-done -DONE
+* Write a test that expects the greet module to return null when you use non string values-done-DONE
+* Write test for the `add` and `subtract` methods on the arithmetic module-done-DONE
+ * Write a test that ensures the functions work as you expect with number inputs-done
+ * Write a test that ensures the functions work as expected with non number inputs-done
 
 ####  Documentation  
-* Write a description of your project in your README.md
+* Write a description of your project in your README.md-DONE
 
 ###### BONUS 1pt
 * Write a test for the index.js CLI
