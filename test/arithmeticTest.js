@@ -1,19 +1,19 @@
 'use strict';
 
-const expect = require('expect');
 
-const arithmetic = require('/test/arithmetic.js');
+
+const arithmetic = require('../lib/arithmetic.js');
+const expect = require('expect');
 
 describe('testing for arithmetic', () => {
   describe('testing for add', () => {
     it('should return 5', () => {
-      expect(arithmetic.add(2,3)).toBe(5);
+      let result = arithmetic.add(2,3);
+      expect(result).toEqual(5);
     });
-    it('should return a is a non number', () => {
-      expect(arithmetic.add('aye',3)).toBe(NaN);
-    });
-    it('should return b is a non number', () => {
-      expect(arithmetic.add(2,'hello')).toBe(NaN);
+    it('should return value is a non number', () => {
+      let result = arithmetic.add('aye',3);
+      expect(result).toEqual(NaN);
     });
   });
   describe('testing for sub', () => {
@@ -21,10 +21,10 @@ describe('testing for arithmetic', () => {
       expect(arithmetic.sub(3,2)).toBe(1);
     });
     it('should return a is a non number', () => {
-      expect(arithmetic.sub('hi',2)).toBe(NaN);
+      expect(arithmetic.sub('hi',2)).toEqual(NaN);
     });
     it('should return b is a non number', () => {
-      expect(arithmetic.sub(3,'hola')).toBe(NaN);
+      expect(arithmetic.sub(3,'hola')).toEqual(NaN);
     });
   });
 });
